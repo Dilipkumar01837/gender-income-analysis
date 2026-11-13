@@ -1,0 +1,14 @@
+{
+  "name": "fair-pay-playground",
+  "version": "1.0.0",
+  "description": "A kid-friendly web story about the gender income gap (SDG 5) with an ML 'Magic Helper'",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "train": "python ml/train.py",
+    "train:demo": "python ml/train.py --synthetic"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "private": true
+}
